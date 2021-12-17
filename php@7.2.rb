@@ -25,7 +25,7 @@ class PhpAT72 < Formula
   # The date below is intentionally a year after the EOL date. This gives the
   # formula a year before being disabled and it will be reported as deprecated
   # in the interim time.
-  disable! date: "2021-11-30", because: :deprecated_upstream
+  #disable! date: "2021-11-30", because: :deprecated_upstream
 
   depends_on "httpd" => [:build, :test]
   depends_on "pkg-config" => :build
